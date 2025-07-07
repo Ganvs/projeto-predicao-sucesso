@@ -1,0 +1,17 @@
+[project]
+name = "projeto-predicao-sucesso"
+version = "0.1.0"
+description = "Sistema de predição de sucesso de projetos com ML e chatbot"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "streamlit>=1.28.0",
+    "joblib>=1.3.0",
+    "pydantic>=2.0.0",
+    "python-multipart>=0.0.6",
+]
