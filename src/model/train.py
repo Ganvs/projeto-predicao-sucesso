@@ -281,7 +281,7 @@ def main():
     print("=" * 60)
 
     # Carregar dados
-    df = pd.read_csv('Project Management Dataset.csv')
+    df = pd.read_csv('data/Project Management Dataset.csv')
 
     # Preparar dados
     data = preparar_dados(df)
