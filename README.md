@@ -33,27 +33,15 @@ Este projeto utiliza machine learning para prever a probabilidade de sucesso de 
 No terminal, execute:
 
 ```
-uv pip install -r requirements.txt
+uv sync
 ```
 
-ou, se estiver usando o `pyproject.toml`:
-
-```
-pip install -r requirements.txt
-uv pip install .
-```
-
-### 3. **Prepare os dados**
-
-- Coloque o arquivo `projetos.csv` na pasta `data/`.
-- Se quiser usar outro dataset, ajuste o caminho no código.
-
-### 4. **Treine o modelo**
+### 3. **Treine o modelo**
 
 Execute o script de teste e treinamento:
 
 ```
-uv run python test_training.py
+uv run test_training.py
 ```
 
 O script irá:
@@ -63,7 +51,7 @@ O script irá:
 - Salvar o modelo treinado em `models/modelo_projetos.pkl`
 - Testar exemplos de predição
 
-### 5. **Inicie a API**
+### 4. **Inicie a API**
 
 Execute:
 
